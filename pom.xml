@@ -48,6 +48,11 @@
             <artifactId>micrometer-registry-prometheus</artifactId>
             <scope>runtime</scope>
         </dependency>
+        <!-- LogBack -->
+		<dependency>
+		   <groupId>ch.qos.logback</groupId>
+		   <artifactId>logback-classic</artifactId>
+		</dependency>
 		<!-- Test Case Dependency -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
